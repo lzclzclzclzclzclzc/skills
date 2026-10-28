@@ -1,0 +1,6 @@
+interface:
+  display_name: "Commit"
+  short_description: "依据实际 Git 改动编写规范提交信息，并按用户要求完成本地提交"
+  default_prompt: "使用 $commit 检查当前改动，生成符合 Conventional Commits 的提交信息。"
+policy:
+  allow_implicit_invocation: true
